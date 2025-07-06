@@ -66,26 +66,6 @@ Frontend runs at: http://localhost:5173
 
 🔄 Switch libraries via sidebar or dropdown.
 
-🗂️ Project Structure
-csharp
-Copy
-Edit
-book-rag/
-├── backend/
-│   ├── main.py                # FastAPI entrypoint
-│   ├── requirements.txt       # Backend dependencies
-│   ├── database/              # SQLAlchemy models and DB logic
-│   ├── routes/                # API endpoints
-│   ├── services/
-│   │   └── rag_pipeline.py    # RAG logic
-│   ├── vector_store.py        # FAISS interaction
-│   ├── uploaded_pdfs/         # Stored PDFs
-│   └── vector_chunks/         # Embedded PDF chunks
-├── frontend/
-│   ├── src/                   # React source code
-│   ├── public/                # Static assets (icons, favicon)
-│   ├── index.html             # Entry HTML
-│   └── package.json           # Frontend config
 🎨 Customization
 Branding / Favicon
 Replace frontend/public/book-favicon-v2.png and update index.html.
