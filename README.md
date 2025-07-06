@@ -3,6 +3,7 @@
 Book RAG is a modern Retrieval-Augmented Generation (RAG) application for interactive question-answering over PDFs and documents. Users can upload books, organize them into libraries, ask questions, and revisit past conversations — all powered by a fast backend and sleek frontend.
 
 🚀 Features
+
 📁 Library & PDF Management
 Organize multiple libraries and upload PDFs with ease.
 
@@ -22,6 +23,7 @@ Responsive React + Tailwind interface with dark mode.
 Custom favicon and themed branding for a polished experience.
 
 🧰 Tech Stack
+
 Layer	Tech
 Frontend	React, Vite, TypeScript, Tailwind CSS, Radix UI, Lucide Icons
 Backend	FastAPI, SQLAlchemy, FAISS, HuggingFace Transformers
@@ -30,6 +32,7 @@ Vector Store	FAISS
 LLM	Local (via Ollama) or any HuggingFace-compatible model
 
 ⚙️ Getting Started
+
 📌 Prerequisites
 Python 3.10+
 
@@ -38,9 +41,7 @@ Node.js 18+
 (Optional) Ollama or HuggingFace model for local LLM inference
 
 🖥️ Backend Setup
-bash
-Copy
-Edit
+
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -49,15 +50,14 @@ uvicorn backend.main:app --reload
 Backend runs at: http://localhost:8000
 
 🌐 Frontend Setup
-bash
-Copy
-Edit
+
 cd frontend
 npm install
 npm run dev
 Frontend runs at: http://localhost:5173
 
 🧪 Usage
+
 📤 Upload PDFs into a chosen library.
 
 ❓ Ask questions in the Chat tab.
@@ -67,6 +67,7 @@ Frontend runs at: http://localhost:5173
 🔄 Switch libraries via sidebar or dropdown.
 
 🎨 Customization
+
 Branding / Favicon
 Replace frontend/public/book-favicon-v2.png and update index.html.
 
@@ -78,6 +79,7 @@ This project is licensed under the MIT License.
 See the LICENSE file for details.
 
 🙏 Acknowledgements
+
 Thanks to the amazing open-source ecosystem:
 
 FastAPI
