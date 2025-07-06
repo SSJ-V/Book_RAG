@@ -1,4 +1,5 @@
 📚 Book RAG
+
 Book RAG is a modern Retrieval-Augmented Generation (RAG) application for interactive question-answering over PDFs and documents. Users can upload books, organize them into libraries, ask questions, and revisit past conversations — all powered by a fast backend and sleek frontend.
 
 🚀 Features
